@@ -10,3 +10,4 @@ sass style.scss ../style.css
 You can add, delete and reorder to-dos by drag and drop.
 This app uses localstorage to store your list.
 
+[DEMO PAGE HERE](https://jupath.github.io/Simple-vanilla-javascript-to-do-list/)
