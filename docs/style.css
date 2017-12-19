@@ -2481,5 +2481,10 @@ body {
             content: "";
             position: absolute;
             display: none; }
+      body .todo-outer .todo-wrapper p.footer {
+        margin-top: 30px;
+        text-align: center; }
+        body .todo-outer .todo-wrapper p.footer a {
+          font-weight: 600; }
 
 /*# sourceMappingURL=style.css.map */
