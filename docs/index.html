@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>TODO List</title>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet" type="text/css">
+        <link type="text/css" rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+           <div class="todo-outer">
+                <div class="todo-wrapper">
+                    <h1>Create your TO-DO list</h1>
+                    <h2 id="date"></h2>
+                        <form id="save-todo" class="form">
+                            <div class="form-group">
+                                <label for="todo-text" class="sr-only">Add your todo</label>
+                                <input type="text" class="form-control" id="todo-text" placeholder="Add your to-dos...">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Save</button>
+                        </form>
+                    <div id="list-head">
+                        <span id="items-left" class="pull-left">
+                            0 items left
+                        </span>
+                        <span class="pull-right">
+                            <button id="remove-all" class="btn btn-danger">Remove all</button>
+                        </span>
+                    </div>
+                    <ul id="todo-list"></ul>
+                </div>
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
